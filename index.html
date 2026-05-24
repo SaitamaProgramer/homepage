@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Résumé</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <title>Matías Stebé — Full-Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<base target="_blank">
 </head>
 
 <body>
@@ -13,71 +15,236 @@
     <div class="resume">
       <div class="container">
         <div class="resume__block">
-          <h1 class="contact-info__header">Alex Johnson</h1>
-          <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+
+          <!-- HEADER CON BOTÓN DE TEMA -->
+          <div class="header-row">
+            <div class="header-titles">
+              <h1 class="contact-info__header">Matías Stebé</h1>
+              <h2 class="contact-info__sub-header">Full-Stack Developer</h2>
+            </div>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+              <!-- El SVG se carga por JS -->
+            </button>
+          </div>
 
           <div class="contact_info_container fh">
+
             <div class="contact-info__block">
+
               <a href="" rel="author" class="contact-info__item">
                 <div class="contact-info__item-icon-wrapper">
                   <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0
-        192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
-        13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
-        80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
                   </svg>
                 </div>
-                <span>Lviv, Ukraine</span>
+                <span>Punta Alta, Buenos Aires, Argentina</span>
               </a>
-              <a href="https://ua.linkedin.com/company/binary-studio_241166" rel="author" class="contact-info__item">
+
+              <a href="https://www.linkedin.com/in/matias-stebe-110007273/" rel="author" class="contact-info__item">
                 <div class="contact-info__item-icon-wrapper">
                   <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9
-        480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4
-        416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9
-        96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5
-        38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9
-        27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5
-        62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
                   </svg>
                 </div>
-                <span>binary-studio</span>
+                <span>LinkedIn Profile</span>
               </a>
+
             </div>
 
             <div class="contact-info__block contact-info__block--center">
-              <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar" />
+              <img class="contact-info__avatar" src="assets/foto-perfil.jpg" alt="Avatar">
             </div>
 
             <div class="contact-info__block">
-              <div class="container">
-                <div class="resume__block">
-                  <div class="intro">
-                    <div class="intro__icon-wrapper">
-                      <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
-            24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
-            26.5 21.5 48 48 48h128c26.5 0 48-21.5
-            48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
-            64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0
-            103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0
-            48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
-                      </svg>
-                    </div>
-                    <p class="intro_text">I'm John, a software developer driven by innovation and
-                      problem-solving. With a strong background in computer science,
-                      I'm dedicated to pushing boundaries and crafting elegant
-                      solutions through code.</p>
-                  </div>
+              <!-- Empty section for layout balance -->
+            </div>
+
+          </div> <!-- End contact_info_container -->
+
+        </div> <!-- End first resume__block -->
+
+        <!-- Introduction and main content block -->
+        <div class="resume__block">
+
+          <div class="intro">
+
+            <div class="intro__icon-wrapper">
+              <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
+              </svg>
+            </div>
+
+            <p class="intro_text">
+              Web Developer in training, with knowledge of technologies such as
+              JavaScript, React, Node.js, HTML, CSS, MySQL, and Python.
+              Although I have no prior work experience in the IT sector,
+              I am constantly training.
+              I have actively participated in programs like Codo a Codo and
+              Binary Studio Academy, developing practical projects with a
+              focus on frontend and backend.
+              I am currently continuing my training in React and technical English,
+              with the goal of professionally entering the web development field.
+            </p>
+
+          </div>
+
+          <div class="skills">
+            <h3 class="skills__header">Technical Skills</h3>
+            <div class="skills-wrapper">
+              <p class="skills__text">
+                Frontend: HTML, CSS, JavaScript, React<br>
+                Backend: Node.js, MySQL, PHP<br>
+                Other: Python, Git, GitHub, Bitbucket
+              </p>
+              <!-- El botón comic se inserta por JS aquí -->
+            </div>
+          </div>
+
+          <div class="main-info fh">
+
+            <div class="experiences">
+              <h3 class="experiences__header">Experience</h3>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">
+                    Training and Projects
+                  </span>
+                  <h3 class="experiences__company-header-name">
+                    Codo a Codo & Binary Studio Academy
+                  </h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">
+                    Full-Stack Developer Trainee
+                  </span>
+                  <h3 class="experiences__company-project-name">
+                    Web Development Projects
+                  </h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Fullstack Web Development (Node.js) – Codo a Codo Program</li>
+                    <li>Binary Studio Academy – Hands-on projects with web technologies</li>
+                    <li>Complementary courses in React, JavaScript, MySQL, and Python</li>
+                    <li>Development of personal web applications</li>
+                    <li>Use of React, JavaScript, Node.js, HTML, and CSS</li>
+                    <li>PC assembly and maintenance (hardware and software)</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">
+                    Complementary Experience
+                  </span>
+                  <h3 class="experiences__company-header-name">
+                    Music Teacher – Various Educational Levels
+                  </h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">
+                    Teacher
+                  </span>
+                  <h3 class="experiences__company-project-name">
+                    Professional Skills Development
+                  </h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Planning and organization</li>
+                    <li>Group leadership</li>
+                    <li>Clear communication</li>
+                    <li>Discipline and responsibility</li>
+                    <li>Teamwork</li>
+                  </ul>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+            <div class="additional-info fv">
+              <div class="additional-info__education">
+                <h3 class="additional-info__education-header">
+                  Education
+                </h3>
+                <div class="additional-info__education-university">
+                  <span class="additional-info__education-university-durability">
+                    Completed Tertiary Degree
+                  </span>
+                  <h3 class="additional-info__education-university-speciality">
+                    Music Teacher with Orientation in Instrument - Percussion
+                  </h3>
+                </div>
+                <div class="additional-info__education-university">
+                  <span class="additional-info__education-university-durability">
+                    2023
+                  </span>
+                  <h3 class="additional-info__education-university-speciality">
+                    Fullstack Web Development (Node.js)
+                  </h3>
+                  <p class="additional-info__education-university-name">
+                    Codo a Codo Program
+                  </p>
+                </div>
+              </div>
+
+              <div class="additional-info__languages">
+                <h3 class="additional-info__languages-header">
+                  Languages
+                </h3>
+                <p class="additional-info__languages-item">
+                  Spanish (Native)
+                </p>
+                <p class="additional-info__languages-item">
+                  English: Intermediate (technical reading)
+                </p>
+              </div>
+
+              <div class="additional-info__languages">
+                <h3 class="additional-info__languages-header">
+                  Soft Skills
+                </h3>
+                <p class="additional-info__languages-item">
+                  Commitment to continuous learning
+                </p>
+                <p class="additional-info__languages-item">
+                  Teamwork and good communication
+                </p>
+                <p class="additional-info__languages-item">
+                  Responsibility and proactivity
+                </p>
+                <p class="additional-info__languages-item">
+                  Receptive to constructive feedback
+                </p>
+              </div>
+
+              <div class="additional-info__languages">
+                <h3 class="additional-info__languages-header">
+                  Featured Projects
+                </h3>
+                <p class="additional-info__languages-item">
+                  <a href="https://aularegistro.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                    aularegistro.com
+                  </a>
+                </p>
+                <p class="additional-info__languages-item">
+                  <a href="https://musica-y-efemerides-487879369930.us-west2.run.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    Music & Anniversaries App
+                  </a>
+                </p>
+                <p class="additional-info__languages-item">
+                  Projects at Binary Studio Academy using
+                  React, JavaScript, Node.js, HTML and CSS
+                </p>
+              </div>
+            </div>
+
+          </div> <!-- End main-info -->
+
+        </div> <!-- End second resume__block -->
+
+      </div> <!-- End container -->
+    </div> <!-- End resume -->
   </main>
 
+  <script src="script.js"></script>
 </body>
 
 </html>
